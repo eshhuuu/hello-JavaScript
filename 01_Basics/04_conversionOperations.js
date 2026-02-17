@@ -71,11 +71,11 @@ console.log(-4 % 2); //-0
 
 
 //With infinity
-Infinity % 2; // NaN
-Infinity % 0; // NaN
-Infinity % Infinity; // NaN
-2 % Infinity; // 2
-0 % Infinity; // 0  
+console.log(Infinity % 2); // NaN
+console.log(Infinity % 0); // NaN
+console.log(Infinity % Infinity); // NaN
+console.log(2 % Infinity); // 2
+console.log(0 % Infinity); // 0  
 
 
 //With Exponentiation (**) operator
@@ -117,4 +117,5 @@ console.log("c:",c,"d:",d);
 
 let num1=7;
 let num2=--num1;
+
 console.log("1:",num1,"2:",num2);
